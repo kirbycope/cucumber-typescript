@@ -20,14 +20,13 @@
 1. Open the root folder using [VS Code](https://code.visualstudio.com/)
    * If you use [GitHub Desktop](https://desktop.github.com/), select the "Open in Visual Studio" button
 1. Select "Terminal" > "New Terminal"
-1. Run `npm install`
-
-## How This Example Was Made
-1. Installed [NodeJS](https://nodejs.org/en/) LTS
-1. Ran the commands under "Get Started With WebdriverIO within Minutes" on [Webdriver.io](https://webdriver.io/)
+1. Run `npm install` to install dependencies noted in [package.json](/package.json)
+1. In the root folder create a new file called `.env`
+1. Copy+Paste the following
    ```
-   $ npm install --save-dev @wdio/cli
-   $ npx wdio config --yes
-   $ npx wdio run
+   TEST_BASE_URL="https://the-internet.herokuapp.com"
+   TEST_USER="tomsmith"
+   TEST_PASS="SuperSecretPassword!"
    ```
-1. Make changes and clean up according to my best practices
+1. Save
+1. In terminal run `npm test`
