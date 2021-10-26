@@ -1,7 +1,7 @@
 # cucumber-typescript
 [Cucumber](https://cucumber.io/) is a software tool that supports behavior-driven development (BDD). </br>
 [TypeScript](https://www.typescriptlang.org/) is a programming language developed and maintained by Microsoft. </br>
-[WDIO](https://webdriver.io/)is a Next-gen browser and mobile automation test framework for Node.js.
+[WDIO](https://webdriver.io/) is a Next-gen browser and mobile automation test framework for Node.js.
 
 ## Core Concepts
 * [Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) is an agile software development process that encourages collaboration among developers, quality assurance testers, and customer representatives in a software project.
@@ -18,3 +18,15 @@
 1. Install [NodeJS](https://nodejs.org/en/) LTS
 1. Clone this repo
 1. Open the root folder using [VS Code](https://code.visualstudio.com/)
+   * If you use [GitHub Desktop](https://desktop.github.com/), select the "Open in Visual Studio" button
+1. Select "Terminal" > "New Terminal"
+1. Run `npm install`
+
+## How This Example Was Made
+1. Installed [NodeJS](https://nodejs.org/en/) LTS
+1. Ran the commands under "Get Started With WebdriverIO within Minutes" on [Webdriver.io](https://webdriver.io/)
+   ```
+   $ npm install --save-dev @wdio/cli
+   $ npx wdio config --yes
+   $ npx wdio run
+   ```
