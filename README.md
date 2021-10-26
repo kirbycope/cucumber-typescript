@@ -30,3 +30,4 @@
    $ npx wdio config --yes
    $ npx wdio run
    ```
+1. Make changes and clean up according to my best practices

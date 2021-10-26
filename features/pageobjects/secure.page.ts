@@ -1,13 +1,8 @@
-import Page from './page';
-
-/**
- * sub page containing specific selectors and methods for a specific page
- */
-class SecurePage extends Page {
-    /**
-     * define selectors using getter methods
-     */
-    get flashAlert () { return $('#flash') }
+/** URL looks like: {baseURL}}/secure */
+class SecurePage {
+    /** The `<div>` for the message. */
+    get divFlashAlert() { return $('#flash') }
 }
 
+/** URL looks like: {baseURL}}/secure */
 export default new SecurePage();
