@@ -7,6 +7,6 @@ Given("I am on the login page", async () => {
 });
 
 // When I login with <username> and <password>
-When(/^I login with (\w+) and (.+)$/, async (username, password) => {
+When(/^I login with (\w+) and (.+)$/, async (username: string, password: string) => {
     await LoginPage.login(username, password)
 });
