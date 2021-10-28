@@ -1,6 +1,7 @@
 # cucumber-typescript
 [Cucumber](https://cucumber.io/) is a software tool that supports behavior-driven development (BDD). </br>
-[TypeScript](https://www.typescriptlang.org/) is a programming language developed and maintained by Microsoft.
+[TypeScript](https://www.typescriptlang.org/) is a programming language developed and maintained by Microsoft. </br>
+[WDIO](https://webdriver.io/) is a Next-gen browser and mobile automation test framework for Node.js.
 
 ## Core Concepts
 * [Behaviour Driven Development](https://en.wikipedia.org/wiki/Behavior-driven_development) is an agile software development process that encourages collaboration among developers, quality assurance testers, and customer representatives in a software project.
@@ -15,13 +16,10 @@
 
 ## Getting Started
 1. Install [NodeJS](https://nodejs.org/en/) LTS
-1. [Mobile] Install [Appium Server](https://github.com/appium/appium-desktop/releases/latest)
-   * [Optional] Install [Appium Inspector](https://github.com/appium/appium-inspector/releases/latest)
-1. [Android] Install [Android Studio](https://developer.android.com/studio) and [create an AVD](https://developer.android.com/studio/run/managing-avds)
 1. Clone this repo
 1. Open the root folder using [VS Code](https://code.visualstudio.com/)
    * If you use [GitHub Desktop](https://desktop.github.com/), select the "Open in Visual Studio" button
-1. Open the [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal)
+1. Select "Terminal" > "New Terminal"
 1. Run `npm install` to install dependencies noted in [package.json](/package.json)
 1. In the root folder create a new file called `.env`
 1. Copy+Paste the following
@@ -31,18 +29,4 @@
    TEST_PASS="SuperSecretPassword!"
    ```
 1. Save
-
-### Appium (Mobile Apps)
-[Appium](https://appium.io) is an open source automation tool for running scripts and testing native applications, mobile-web applications and hybrid applications on Android or iOS using a webdriver. </br>
-Example tests use https://developer.android.com/training/basics/firstapp </br>
-The [apk](/app-debug.apk) is included as part of _this_ sample repo.
-
-With the Android emulator running and Appium server running:
-   * In the integrated terminal run `npm test -- spec main`
-
-### Selenium (Web Apps)
-[Selenium](https://selenium.dev) is an open-source automated testing framework for web applications. </br>
-[WDIO](https://webdriver.io/) is a Next-gen browser and mobile automation test framework for Node.js. </br>
-Example tests use https://the-internet.herokuapp.com/login
-
-   * In the integrated terminal run `npm test --spec login`
+1. In terminal run `npm test`
