@@ -51,7 +51,6 @@ export const config: WebdriverIO.Config = {
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
     capabilities: [{
-    
         "appium:app": "C:\\Users\\kirby\\OneDrive\\Documents\\GitHub\\cucumber-python\\app-debug.apk",
         "appium:udid": "emulator-5554",
         "platformName": "Android"
