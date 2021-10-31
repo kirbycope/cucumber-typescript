@@ -32,6 +32,8 @@
    ```
 1. Save
 
+## Run Tests
+
 ### Appium (Mobile Apps)
 [Appium](https://appium.io) is an open source automation tool for running scripts and testing native applications, mobile-web applications and hybrid applications on Android or iOS using a webdriver. </br>
 Example tests use https://developer.android.com/training/basics/firstapp </br>
