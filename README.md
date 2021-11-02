@@ -47,3 +47,15 @@ Example tests use https://the-internet.herokuapp.com/login
 
 With the [AVD](https://developer.android.com/studio/run/emulator-commandline) running:
    * In the integrated terminal run `npm run selenium`
+
+## JavaScript Tips and Tricks
+
+### Clear Dev Dependencies
+In the integrated terminal run `npm prune --production`
+
+### Hide node modules from VS Code's Explorer
+1. Open the [Command Pallete](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette)
+1. Search for and then select "Preferences: Open User Settings"
+1. Seach for `files.exclude`
+1. Select the "Add Pattern" button
+1. Enter `**/node_modules`
