@@ -10,7 +10,7 @@
 * [Fluent Interface](https://en.wikipedia.org/wiki/Fluent_interface) is an object-oriented API whose design relies extensively on method chaining.
   * PageObect.someFunction()
   * PageOject.someElement().click()
-* [Page Object Model](https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models/) is a Design Pattern which has become popular in test automation for enhancing test maintenance and reducing code duplication. </br>
+* [Page Object Model](https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models/) is a Design Pattern that has become popular in test automation for enhancing test maintenance and reducing code duplication. </br>
   * The "login" screen will have a "Login page object" that contains the selectors for elements on the page and functions that can be performed on that page.
 
 ## Getting Started
@@ -33,7 +33,7 @@
 ## Run Tests
 
 ### Appium (Mobile Apps)
-[Appium](https://appium.io) is an open source automation tool for running scripts and testing native applications, mobile-web applications and hybrid applications on Android or iOS using a webdriver. </br>
+[Appium](https://appium.io) is an open-source automation tool for running scripts and testing native applications, mobile-web applications, and hybrid applications on Android or iOS using a webdriver. </br>
 Example tests use https://developer.android.com/training/basics/firstapp </br>
 The [apk](/app-debug.apk) is included as part of _this_ sample repo.
 
